@@ -51,3 +51,11 @@ day17-services/
     ├── dns-load-balancing.png
     ├── pod-replacement.png
     └── selector-failure-fix.png
+    
+```
+
+## Cleanup
+
+kubectl delete service hello
+
+kubectl delete deployment hello
